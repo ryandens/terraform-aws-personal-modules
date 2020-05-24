@@ -3,6 +3,6 @@ output "name_servers" {
   value       = aws_route53_zone.zone.name_servers
 }
 
-output "s3_url" {
-  value = aws_s3_bucket.www.bucket_domain_name
+output "bucket_id" {
+  value = aws_s3_bucket.www.id
 }
